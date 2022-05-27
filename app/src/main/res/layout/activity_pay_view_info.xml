@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/cust_login"
+    android:id="@+id/btn_vendSubmit"
+    tools:context=".VendViewReq">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/trans_logo" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/custom_wh" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/settings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu_list" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/go_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/last_screen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Summary"
+        android:fontFamily="@font/qs_light"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tst"
+        android:layout_marginTop="260dp"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Requested : "/>
+
+    <TextView
+        android:id="@+id/payOrderServType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text=" "
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tjd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Job Description : "
+        android:layout_below="@+id/tst"/>
+
+    <TextView
+        android:id="@+id/ttv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Time : "
+        android:layout_below="@+id/tsd"/>
+
+    <TextView
+        android:id="@+id/tbp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Per Hour Rate : "
+        android:layout_below="@+id/ttv"/>
+
+    <TextView
+        android:id="@+id/tbr"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:text="Service Base Rate : "
+        android:layout_below="@+id/tbp"/>
+
+    <TextView
+        android:id="@+id/rest_time"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:text="Rest Time : "
+        android:layout_below="@+id/tbr"/>
+
+    <TextView
+        android:id="@+id/work_time"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:text="Work Time : "
+        android:layout_below="@+id/rest_time"/>
+
+    <TextView
+        android:id="@+id/total_payment"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:text="Work Time : "
+        android:layout_below="@+id/work_time"/>
+
+    <TextView
+        android:id="@+id/tsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Date : "
+        android:layout_below="@+id/payOrderJobDescView"/>
+
+    <TextView
+        android:id="@+id/payOrderJobDescView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/payOrderServType"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text=" "
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/payOrderServDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payOrderJobDescView"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text=" "
+        android:textSize="17dp" />
+
+
+
+    <TextView
+        android:id="@+id/payOrderperhourView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:text=" "
+        android:paddingLeft="200dp"
+        android:textSize="17dp"
+        android:layout_below="@+id/payOrdertotal_serv_time" />
+
+    <TextView
+        android:id="@+id/payOrderbaserateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payOrderperhourView"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text=" "
+        android:textSize="17dp" />
+
+
+
+    <TextView
+        android:id="@+id/payOrdertotal_serv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:text=" "
+        android:paddingLeft="200dp"
+        android:textSize="17dp"
+        android:layout_below="@+id/payOrderServDateView" />
+
+
+    <TextView
+        android:id="@+id/payOrderrest_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payOrderbaserateView"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text=" "
+        android:textSize="17dp" />
+
+
+    <TextView
+        android:id="@+id/payOrderwork_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:text=" "
+        android:paddingLeft="200dp"
+        android:textSize="17dp"
+        android:layout_below="@+id/payOrderrest_time" />
+
+    <TextView
+        android:id="@+id/payOrderpayment_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:text=" "
+        android:paddingLeft="200dp"
+        android:textSize="17dp"
+        android:layout_below="@+id/payOrderwork_time" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_paymentProceed"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payOrderpayment_total"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:text="Payment"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_lb"
+        android:textSize="17dp" />
+
+
+</RelativeLayout>

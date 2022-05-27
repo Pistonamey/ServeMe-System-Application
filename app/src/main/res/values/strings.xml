@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="Pistonamey">Pistonamey</string>
+    <string name="abc123">abc123</string>
+    <string name="Login">Login</string>
+    <string name="need">Need repairs?\n We\'re here !!</string>
+    <string name="Register">Register</string>
+    <string name="welcome_b">Welcome Back !!</string>
+    <string name="lg_as">Login as : </string>
+    <string name="OR">OR</string>
+    <string name="ca_guest">Continue \nas:</string>
+    <string name="customer">Customer</string>
+    <string name="vendor">Vendor</string>
+    <string name="Guest">Guest</string>
+    <string name="sett">Settings</string>
+
+</resources>

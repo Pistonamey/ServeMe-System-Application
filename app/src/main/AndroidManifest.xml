@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_logo_app"
+        android:label="ServeMe System"
+        android:roundIcon="@mipmap/icon_logo_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".INFO_class"
+            android:exported="false" />
+        <activity
+            android:name=".forgot_password"
+            android:exported="false" />
+        <activity
+            android:name=".RateOrder"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeOrder"
+            android:exported="false" />
+        <activity
+            android:name=".PstVendView"
+            android:exported="false" />
+        <activity
+            android:name=".past_vend_ord"
+            android:exported="false" />
+        <activity
+            android:name=".PstOrderView"
+            android:exported="false" />
+        <activity
+            android:name=".req_completed"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentPage"
+            android:exported="false" />
+        <activity
+            android:name=".PayViewInfo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EmptyTest"
+            android:exported="false" />
+        <activity
+            android:name=".VendorSearchResult"
+            android:exported="false" />
+        <activity
+            android:name=".Vend_My_Orders"
+            android:exported="false" />
+        <activity
+            android:name=".CurVendViewReq"
+            android:exported="false" />
+        <activity
+            android:name=".cur_vend_ord"
+            android:exported="false" />
+        <activity
+            android:name=".CurViewReq"
+            android:exported="false" />
+        <activity
+            android:name=".CustViewReq"
+            android:exported="false" />
+        <activity
+            android:name=".Account_ProfileV2"
+            android:exported="false" />
+        <activity
+            android:name=".VendViewReq"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateOrder"
+            android:exported="false" />
+        <activity
+            android:name=".select_serv"
+            android:exported="false" />
+        <activity
+            android:name=".VendorRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".just_try"
+            android:exported="false" />
+        <activity
+            android:name=".req_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Vend_sett"
+            android:exported="false" />
+        <activity
+            android:name=".Vend_main_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Vend_login"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Register_main"
+            android:exported="false" />
+        <activity
+            android:name=".v_bids"
+            android:exported="false" />
+        <activity
+            android:name=".vp_ord"
+            android:exported="false" />
+        <activity
+            android:name=".vc_ord"
+            android:exported="false" />
+        <activity
+            android:name=".pst_ord"
+            android:exported="false" />
+        <activity
+            android:name=".cur_ord"
+            android:exported="false" />
+        <activity
+            android:name=".jb_des"
+            android:exported="false" />
+        <activity
+            android:name=".date_time"
+            android:exported="false" />
+        <activity
+            android:name=".Search"
+            android:exported="false" />
+        <activity
+            android:name=".sh_bids"
+            android:exported="false" />
+        <activity
+            android:name=".My_Orders"
+            android:exported="false" />
+        <activity
+            android:name=".Serv_req"
+            android:exported="false" />
+        <activity
+            android:name=".Cust_main_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Cust_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Login_main"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

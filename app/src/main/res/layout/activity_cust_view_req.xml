@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/cust_login"
+    android:id="@+id/btn_vendSubmit"
+    tools:context=".CustViewReq">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/trans_logo" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/custom_wh" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/settings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu_list" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/go_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/last_screen" />
+
+    <TextView
+        android:id="@+id/custServType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text=" "
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tst"
+        android:layout_marginTop="260dp"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Requested : "/>
+
+    <TextView
+        android:id="@+id/tjd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Job Description : "
+        android:layout_below="@+id/tst"/>
+
+
+    <TextView
+        android:id="@+id/custJobDescView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custServType"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text=" "
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Date : "
+        android:layout_below="@+id/custJobDescView"/>
+
+
+    <TextView
+        android:id="@+id/custServDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custJobDescView"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text=" "
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/custServTimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:text=" "
+        android:paddingLeft="200dp"
+        android:textSize="17dp"
+        android:layout_below="@+id/custServDateView" />
+
+    <TextView
+        android:id="@+id/tbp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Per Hour Rate : "
+        android:layout_below="@+id/ttv"/>
+
+    <TextView
+        android:id="@+id/tbr"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:text="Service Base Rate : "
+        android:layout_below="@+id/tbp"/>
+
+    <TextView
+        android:id="@+id/ttv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Time : "
+        android:layout_below="@+id/tsd"/>
+
+    <TextView
+        android:id="@+id/custServTypeView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="#00FFFFFF"
+        android:layout_below="@+id/custServTimeView" />
+
+    <TextView
+        android:id="@+id/custBasePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:text=" "
+        android:paddingLeft="200dp"
+        android:textSize="17dp"
+        android:layout_below="@+id/custServTimeView" />
+
+
+    <TextView
+        android:id="@+id/custBaseRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custBasePrice"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text=" "
+        android:textSize="17dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/custom_lb"
+        android:layout_marginTop="500dp"
+        android:text="accept"
+        android:textColor="@color/white" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reject"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_lb"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="250dp"/>
+
+
+</RelativeLayout>

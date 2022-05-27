@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/cust_login"
+    android:id="@+id/btn_vendSubmit"
+    tools:context=".VendViewReq">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/trans_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/qs_light"
+        android:text="Service Summary"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/settings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu_list" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/go_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/last_screen" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/custom_wh" />
+
+    <TextView
+        android:id="@+id/tst"
+        android:layout_marginTop="260dp"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Requested : "/>
+
+    <TextView
+        android:id="@+id/curServType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tjd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Job Description : "
+        android:layout_below="@+id/tst"/>
+
+    <TextView
+        android:id="@+id/curJobDescView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:paddingLeft="200dp"
+        android:textSize="17dp"
+        android:text="TextView"
+        android:layout_below="@+id/curServType" />
+
+    <TextView
+        android:id="@+id/tsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Date : "
+        android:layout_below="@+id/tjd"/>
+
+    <TextView
+        android:id="@+id/curServDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/curJobDescView"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:textSize="17dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ttv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Time : "
+        android:layout_below="@+id/tsd"/>
+
+    <TextView
+        android:id="@+id/curServTimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/curServDateView"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:textSize="17dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tbp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Base Rate : "
+        android:layout_below="@+id/ttv"/>
+
+    <TextView
+        android:id="@+id/curBasePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:paddingLeft="200dp"
+        android:textSize="17dp"
+        android:text="TextView"
+        android:layout_below="@+id/curServTimeView" />
+
+    <TextView
+        android:id="@+id/tbr"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="Service Per Hour Rate : "
+        android:layout_below="@+id/tbp"/>
+
+
+    <TextView
+        android:id="@+id/curBaseRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/curBasePrice"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/custom_lb"
+        android:text="proceed"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancel_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/custom_lb"
+        android:text="cancel"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/change_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/custom_lb"
+        android:text="change"
+        android:textColor="@color/white" />
+
+
+
+
+</RelativeLayout>

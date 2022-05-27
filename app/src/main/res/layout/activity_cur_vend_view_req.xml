@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/back_gr">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/settings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu_list" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/go_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/last_screen" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/trans_logo" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/custom_wh" />
+
+    <TextView
+        android:id="@+id/curVendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jemail"
+        android:layout_marginTop="260dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textSize="17dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:text="Customer Email : "/>
+
+    <TextView
+        android:id="@+id/tjd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Job Description : "
+        android:layout_below="@+id/jemail"/>
+
+    <TextView
+        android:id="@+id/curVendjobDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:layout_below="@+id/curVendEmail"/>
+
+    <TextView
+        android:id="@+id/tbp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/qs_light"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Service Base Rate : "
+        android:layout_below="@+id/srtype"/>
+
+    <TextView
+        android:id="@+id/srtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textSize="17dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:text="Service Type : "
+        android:layout_below="@+id/srtime"/>
+
+    <TextView
+        android:id="@+id/tbr"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:text="Per Hour Rate : "
+        android:layout_below="@+id/tbp"/>
+
+    <TextView
+        android:id="@+id/srtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textSize="17dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:text="Service Time : "
+        android:layout_below="@+id/srdate"/>
+
+    <TextView
+        android:id="@+id/srdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textSize="17dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:text="Service Date : "
+        android:layout_below="@+id/tjd"/>
+
+    <TextView
+        android:id="@+id/curVendServDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:layout_below="@+id/curVendjobDesc"/>
+
+    <TextView
+        android:id="@+id/curVendServTimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:layout_below="@+id/curVendServDateView"/>
+
+    <TextView
+        android:id="@+id/curVendServTypeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:layout_below="@+id/curVendServTimeView"/>
+
+    <TextView
+
+        android:id="@+id/curVendBasePriceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:layout_below="@+id/curVendServTypeView"/>
+
+    <TextView
+        android:id="@+id/curVendBaseRateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:layout_below="@+id/curVendBasePriceView"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/custom_gr"
+        android:text="START" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="230dp"
+        android:background="@drawable/custom_gr"
+        android:text="PAUSE" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/custom_gr"
+        android:text="RESUME" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="230dp"
+        android:background="@drawable/custom_gr"
+        android:text="FINISH"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vend_log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/custom_gr"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=" "
+        android:id="@+id/tltl"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="620dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=" "
+        android:id="@+id/resl"
+        android:layout_marginTop="630dp"
+        android:layout_marginStart="220dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=" "
+        android:id="@+id/ttl_time"
+        android:layout_marginTop="660dp"
+        android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=" "
+        android:id="@+id/payl"
+        android:layout_marginTop="660dp"
+        android:layout_marginStart="220dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cust_login"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp">
+
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/nav_bar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      app:menu="@menu/bottom_navigation"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/settings"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_alignParentRight="true"
+      android:background="@drawable/menu_list" />
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="200dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="100dp"
+      android:fontFamily="@font/qs_light"
+      android:text="Service Request \n        Placed !!"
+      android:textColor="@color/white"
+      android:textSize="35dp" />
+
+  <VideoView
+      android:id="@+id/bg_spl"
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+       />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="You can go back HOME \nto place a new request."
+      android:textColor="@color/red"
+      android:fontFamily="@font/qs_light"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="530dp"
+      android:textSize="20dp"/>
+
+
+  
+
+
+</RelativeLayout>

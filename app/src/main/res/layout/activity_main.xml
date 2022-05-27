@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp">
+
+
+    <VideoView
+        android:id="@+id/bg_vid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/settings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/menu_list" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/trans_logo"/>
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="115dp"
+        android:background="@drawable/box"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="200dp"/>
+
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="115dp"
+        android:background="@drawable/box"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="570dp"/>
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginStart="12dp"
+        android:background="@color/lg_blue"/>
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="666dp"
+        android:layout_marginStart="12dp"
+        android:background="@color/lg_blue"/>
+
+
+    <TextView
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/need"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:fontFamily="@font/qs_light"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
+        android:layout_width="180dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/custom_lb"
+        android:fontFamily="@font/qs_light"
+        android:onClick="loginButton"
+        android:text="@string/Login"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register_button"
+        android:layout_width="180dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/custom_rg"
+        android:fontFamily="@font/qs_light"
+        android:onClick="loginButton"
+        android:text="@string/Register"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+</RelativeLayout>

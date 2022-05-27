@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:background="@color/lt_blue">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ttp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Payment details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textSize="33dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_cardNumber"
+        android:hint="Card Number"
+        android:layout_marginTop="250dp"
+        android:textColorHint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:textSize="22dp"
+        android:background="@drawable/button_out"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_cardHolderName"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:textSize="22dp"
+        android:background="@drawable/button_out"
+        android:hint="Card Holder Name"
+        android:layout_marginTop="300dp"
+        />
+
+
+    <EditText
+        android:id="@+id/et_cardExpDate"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:hint="Expiration MM/YY"
+        android:layout_width="350dp"
+        android:textSize="22dp"
+        android:background="@drawable/button_out"
+        android:layout_marginTop="350dp" />
+
+
+    <EditText
+        android:id="@+id/et_CVV"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:textSize="22dp"
+        android:background="@drawable/button_out"
+        android:hint="CVV"
+        android:layout_marginTop="400dp" />
+
+
+    <TextView
+        android:id="@+id/tv_serviceTotalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total amount to be paid :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="450dp" />
+
+
+    <TextView
+        android:id="@+id/tv_serviceTotalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColorHint="@color/black"
+        android:layout_toRightOf="@+id/tv_serviceTotalText"
+        android:layout_below="@+id/et_CVV"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_submitPayent"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/custom_lb"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

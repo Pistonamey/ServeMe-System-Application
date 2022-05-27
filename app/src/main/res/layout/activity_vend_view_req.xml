@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back_gr"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/settings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu_list" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/go_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/last_screen" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/trans_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/qs_light"
+        android:text="Request Summary"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/custom_wh" />
+
+    <TextView
+        android:id="@+id/custEmailView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jemail"
+        android:layout_marginTop="260dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textSize="17dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:text="Customer Email : "/>
+
+    <TextView
+        android:id="@+id/jjdsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textSize="17dp"
+        android:layout_below="@+id/jemail"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:text="Service Requested : "/>
+
+
+    <TextView
+        android:id="@+id/jobDescView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custEmailView"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/srdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textSize="17dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:text="Service Date : "
+        android:layout_below="@+id/jjdsc"/>
+
+    <TextView
+        android:id="@+id/servDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jobDescView"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/srtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textSize="17dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:text="Service Time : "
+        android:layout_below="@+id/srdate"/>
+
+    <TextView
+        android:id="@+id/servTimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/servDateView"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/srtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/qs_light"
+        android:textSize="17dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:text="Service Type : "
+        android:layout_below="@+id/srtime"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/servTypeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/servTimeView"
+        android:fontFamily="@font/qs_light"
+        android:paddingLeft="200dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/custom_gr"
+        android:text="submit" />
+
+    <EditText
+        android:id="@+id/et_basePay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_gr"
+        android:ems="10"
+        android:hint="Enter Base Pay $ "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_baseRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Rate $ "
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_gr"
+        android:inputType="textPersonName"
+        android:layout_marginTop="450dp" />
+
+</RelativeLayout>
