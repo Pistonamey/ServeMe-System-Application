@@ -18,6 +18,15 @@ Vendor Dashboard (Send Bid) -
 Customer (Accept Bid) - 
 ![Screenshot_20220605-094701](https://user-images.githubusercontent.com/83175234/172036212-c9624bff-f3d7-444b-9182-2cb7e7f125e2.jpg)![Screenshot_20220605-094708](https://user-images.githubusercontent.com/83175234/172036215-380aaba0-15cd-4884-a1f9-8c667c10d8d4.jpg)
 Vendor (Perform Service Request) - 
+![Screenshot_20220605-094733](https://user-images.githubusercontent.com/83175234/172036489-1d3658d8-6f39-47d3-8ae2-ba71b49c0562.jpg)![Screenshot_20220605-094529](https://user-images.githubusercontent.com/83175234/172036501-0a54dbff-fd4a-4789-bc6b-0948b63db322.jpg)
+![Screenshot_20220605-094744](https://user-images.githubusercontent.com/83175234/172036518-f04de999-145b-424c-aeb0-048972fe45f4.jpg)![Screenshot_20220605-094756 (1)](https://user-images.githubusercontent.com/83175234/172036534-0d162ea8-1f4c-4ade-ac5d-46f6d8d358f5.jpg)
+Customer (Complete order) - 
+![Screenshot_20220605-095006](https://user-images.githubusercontent.com/83175234/172036579-03db2eeb-ced9-4d98-8e6b-b6af6a40c088.jpg)![Screenshot_20220605-095012](https://user-images.githubusercontent.com/83175234/172036585-62d5ea0f-7cae-4a4c-a5ee-4bf6c444cefc.jpg)
+![Screenshot_20220605-094826](https://user-images.githubusercontent.com/83175234/172036589-e213fa57-0d54-4670-8fa3-950974b51e6e.jpg)![Screenshot_20220605-094858](https://user-images.githubusercontent.com/83175234/172036605-d332f7f3-7b9b-46af-abb4-22efbc955c8d.jpg)
+
+
+
+
 
 
 
